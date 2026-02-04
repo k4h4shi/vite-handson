@@ -1,0 +1,72 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: var(--slate50);
+        --foreground: var(--slate900);
+        --card: var(--white);
+        --card-foreground: var(--slate900);
+        --popover: var(--white);
+        --popover-foreground: var(--slate900);
+        --primary: var(--slate900);
+        --primary-foreground: var(--slate50);
+        --secondary: var(--slate100);
+        --secondary-foreground: var(--slate900);
+        --muted: var(--slate100);
+        --muted-foreground: var(--slate500);
+        --accent: var(--slate100);
+        --accent-foreground: var(--slate900);
+        --destructive: var(--red500);
+        --destructive-foreground: var(--white);
+        --border: var(--slate200);
+        --input: var(--slate200);
+        --ring: var(--slate900);
+        --chart-1: var(--blue500);
+        --chart-2: var(--emerald500);
+        --chart-3: var(--amber500);
+        --chart-4: var(--purple500);
+        --chart-5: var(--rose500);
+        --radius: 0.5rem
+    }
+
+    .dark {
+        --background: var(--slate900);
+        --foreground: var(--slate50);
+        --card: var(--slate900);
+        --card-foreground: var(--slate50);
+        --popover: var(--slate900);
+        --popover-foreground: var(--slate50);
+        --primary: var(--slate50);
+        --primary-foreground: var(--slate900);
+        --secondary: var(--slate800);
+        --secondary-foreground: var(--slate50);
+        --muted: var(--slate800);
+        --muted-foreground: var(--slate400);
+        --accent: var(--slate800);
+        --accent-foreground: var(--slate50);
+        --destructive: var(--red600);
+        --destructive-foreground: var(--slate50);
+        --border: var(--slate800);
+        --input: var(--slate800);
+        --ring: var(--slate100);
+        --chart-1: var(--blue400);
+        --chart-2: var(--emerald400);
+        --chart-3: var(--amber400);
+        --chart-4: var(--purple400);
+        --chart-5: var(--rose400)
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
