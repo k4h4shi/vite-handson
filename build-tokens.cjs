@@ -6,7 +6,8 @@ register(StyleDictionary, {
 })
 
 const sd = new StyleDictionary({
-  source: ['src/tokens/**/*.json'],
+  source: ['tokens.json'],
+  preprocessors: ['tokens-studio'],
   platforms: {
     css: {
       transformGroup: 'tokens-studio',

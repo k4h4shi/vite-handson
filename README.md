@@ -23,7 +23,7 @@ npm run dev
 
 ## デザイントークンの反映
 
-1. Tokens Studio で `src/tokens` に JSON を Push or downloadして手動配置。
+1. Tokens Studio で `tokens.json` に JSON を Push（free plan向けのsingle-file運用）。
 2. CSS 変数に変換
 
 ```bash
