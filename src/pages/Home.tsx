@@ -71,11 +71,12 @@ function Home() {
 
       <form className="flex items-center gap-3" onSubmit={handleSubmit}>
         <Input
+          className="h-10"
           placeholder="create todo app"
           value={inputValue}
           onChange={(event) => setInputValue(event.target.value)}
         />
-        <Button className="shrink-0" type="submit">
+        <Button className="shrink-0" type="submit" size="lg">
           add todo
         </Button>
       </form>
@@ -88,7 +89,7 @@ function Home() {
         </TabsList>
       </Tabs>
 
-      <div className="mt-4 space-y-4 rounded-lg border border-border p-4">
+      <div className="mt-4 space-y-4 rounded-lg border border-border p-5">
         {filteredItems.length === 0 ? (
           <p className="text-sm text-muted-foreground">No todos yet.</p>
         ) : (

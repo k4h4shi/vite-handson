@@ -12,7 +12,7 @@
         --card-foreground: var(--slate900);
         --popover: var(--white);
         --popover-foreground: var(--slate900);
-        --primary: var(--slate900);
+        --primary: var(--colorPrimary);
         --primary-foreground: var(--slate50);
         --secondary: var(--slate100);
         --secondary-foreground: var(--slate900);
