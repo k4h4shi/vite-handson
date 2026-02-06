@@ -3,8 +3,8 @@
  */
 
 :root {
-  --white: #ffffff;
-  --black: #000000;
+  --colorWhite: #ffffff;
+  --colorBlack: #000000;
   --slate50: #f8fafc;
   --slate100: #f1f5f9;
   --slate200: #e2e8f0;
@@ -225,9 +225,15 @@
   --rose700: #be123c;
   --rose800: #9f1239;
   --rose900: #881337;
-  --shadow: 0 4px 6px 0 #00000017;
   --fontFamiliesInter: Inter;
   --fontFamiliesMenlo: Menlo;
+  --fontWeightsInter0: Extra Bold;
+  --fontWeightsInter1: Semi Bold;
+  --fontWeightsInter2: Regular;
+  --fontWeightsInter3: Medium;
+  --fontWeightsInter4: Italic;
+  --fontWeightsMenlo5: Bold;
+  --fontWeightsInter6: Bold;
   --lineHeights0: 48;
   --lineHeights1: 36;
   --lineHeights2: 32;
@@ -249,13 +255,6 @@
   --lineHeights18: 20;
   --lineHeights19: 24;
   --lineHeights20: 24;
-  --fontWeightsInter0: Extra Bold;
-  --fontWeightsInter1: Semi Bold;
-  --fontWeightsInter2: Regular;
-  --fontWeightsInter3: Medium;
-  --fontWeightsInter4: Italic;
-  --fontWeightsMenlo5: Bold;
-  --fontWeightsInter6: Bold;
   --fontSize0: 12;
   --fontSize1: 14;
   --fontSize2: 16;
@@ -264,37 +263,7 @@
   --fontSize5: 24;
   --fontSize6: 30;
   --fontSize7: 48;
-  --letterSpacing0: -0.012em;
-  --letterSpacing1: -0.0075em;
-  --letterSpacing2: -0.006em;
-  --letterSpacing3: -0.005em;
-  --letterSpacing4: 0em;
   --paragraphSpacing0: 0;
-  --textCaseNone: none;
-  --textDecorationNone: none;
   --paragraphIndent0: 0;
-  --colorWhite: #ffffff;
-  --colorBlack: #000000;
-  --h1: 8var(--paragraphSpacingvar(--paragraphIndent0))0 var(--lineHeights0)px/var(--fontSize7) var(--fontFamiliesInter);
-  --h2: 6var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize6)px/var(--lineHeights1) var(--fontFamiliesInter);
-  --h3: 6var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize5)px/var(--lineHeights2) var(--fontFamiliesInter);
-  --h4: 6var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize4)px/var(--lineHeights3) var(--fontFamiliesInter);
-  --large: 6var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize3)px/var(--lineHeights3) var(--fontFamiliesInter);
-  --lead: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize4)px/var(--lineHeights3) var(--fontFamiliesInter);
-  --p: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights3) var(--fontFamiliesInter);
-  --pUi: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --pUiMedium: 5var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --list: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --body: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize1)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --bodyMedium: 5var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize1)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --subtle: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize1)px/var(--lineHeights12) var(--fontFamiliesInter);
-  --subtleMedium: 5var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize1)px/var(--lineHeights12) var(--fontFamiliesInter);
-  --subleSemibold: 6var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize1)px/var(--lineHeights12) var(--fontFamiliesInter);
-  --small: 5var(--paragraphSpacingvar(--paragraphIndent0))0 var(--lineHeights15)px/var(--fontSize1) var(--fontFamiliesInter);
-  --detail: 5var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize0)px/var(--lineHeights12) var(--fontFamiliesInter);
-  --blockquote: italic 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --inlineCode: 7var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize1)px/var(--lineHeights12) var(--fontFamiliesMenlo);
-  --tableHead: 7var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --tableItem: 4var(--paragraphSpacingvar(--paragraphIndent0))0 var(--fontSize2)px/var(--lineHeights7) var(--fontFamiliesInter);
-  --colorPrimary: var(--cyan900);
+  --colorPrimary: var(--orange900);
 }
